@@ -1,0 +1,27 @@
+aula 2: A web segura - HTTPS
+requisição: informação pedida do navegador para o servidor
+resposta: resposta dada do servidor para o navegador
+antes da requisição chegar no servidor ela passa por n intermedirarios como: roteador, modem, porvedor, etc....
+https é basicamente o http com suas regras, só que com um a+ sendo http + ssl/tls 
+o http teve de ser atualizado por conta de sua pouca segurança, considerando que ele passa seus dados em texto puro para o servidor
+identidado na web: certificado digital
+certificado digital: chave publica
+servidor: chave privada
+-HTTPS significa usar um certificado digital no servidor.
+-O certificado prova a identidade e tem validade
+-O certificado possui uma chave publica.
+-A chave é utilizada pelo navegador para criptografar os dados.
+quem consegue discriptografar os dados, é só quem tem a chave privada, e quem tem uma aplicação web/servidor
+As chaves estão ligadas matematicamente, o que foi cifrado pela chave pública só pode ser decifrado pela chave privada, esse método de criptografia é chamado de criptografia assimétrica
+O que você aprendeu nesse capítulo?
+-Por padrão, os dados são trafegados como texto puro na web.
+-Apenas com HTTPS a Web é segura
+-O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, a TLS/SSL
+-O tipo de criptografia de chave pública/chave privada
+-O que são os certificados digitais
+-Certificados possuem identidade e validade
+-As chaves públicas estão no certificado, a chave privada fica apenas no servidor
+-O que é uma autoridade certificadora
+-O navegador utiliza a chave pública para criptografar os dados
+
+

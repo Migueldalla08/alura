@@ -1,0 +1,20 @@
+aula 1: OQUE É HTTP?
+http é independente de plataforma
+pode ser usado em: ios, android, java, php e .net
+podem ser usado qualquer navegador
+tanto: opera, crhome, firefox, internet explorer
+regras de comunicação: basicamente protocolo
+documentaria sobre regras: https://tools.ietf.org/html/rfc2616
+HTTP: Hypertext Transfer Protocol
+é um protocolo de tranferencia de arquivos entre cliente e servidores
+o navegador seria o cliente e o http estabeleceria regras entre o cliente e o servidor
+Usando algum aplicativo de Torrent, o protocolo utilizado não é o HTTP, e sim o protocolo P2P, como BitTorrent ou Gnutella.
+SQL (Structured Query Language) não é um protocolo para internet, e sim uma linguagem de consulta para banco de dados.
+Cliente  <--- HTTP ---> Servidor Java  <--- SQL ---> Banco de dados
+O que você aprendeu nesse capítulo?
+A arquitetura Cliente-Servidor
+-Um protocolo é um conjunto de regras
+-HTTP é um protocolo que define as regras de comunicação entre -cliente e servidor na internet.
+-HTTP é o protocolo mais importante da Internet
+
+
